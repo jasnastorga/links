@@ -1,1 +1,136 @@
-<h1>My link in bio</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    /* * {
+      border: thin red solid;
+    } */
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    body {
+      background-color: #004643;
+      justify-content: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      display: flex;
+    }
+
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none;
+      /* justify-content: space-around; */
+
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .link {
+      background-color: #f9bc60;
+      display: flex;
+      align-items: center;
+    }
+
+    .link a {
+      color: #7f5af0;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
+  </style>
+  <!-- where we tell the browser how to process the document: -->
+  <!-- what title to put in the browser tab -->
+  <!-- what style sheets to load -->
+  <!-- what language to use -->
+  <!-- we will always use a character set called UTF-8 -->
+  <!-- UTF-8 allows for all languages as well as things like emoji -->
+</head>
+
+<body>
+  <div class="items">
+    <div class="banner">
+      <img src="colbert.jpg" alt="Raghu Betina headshot" class="banner-image">
+    </div>
+
+    <div class="name">
+      Stephen Colbert
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/company/the-late-show-with-stephen-colbert/" target="_blank">LinkedIn</a>
+      <a href="https://www.instagram.com/stephenathome/" target="_blank">Instagram</a>
+      <a href="https://twitter.com/stephenathome?lang=en" target="_blank">Twitter</a>
+    </div>
+
+    <!-- ncbi article-->
+    <div class="link">
+      <img src="ncbi.png" class="banner-image thumbnail">
+
+      <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7599614/">Reaching Natural Growth: Light
+        Quality Effects on Plant Performance in Indoor Growth Facilities</a>
+    </div>
+
+    <!-- baked ziti recipe-->
+    <div class="link">
+      <img src="ziti.jpg" class="banner-image thumbnail">
+
+      <a target="_blank" href="https://www.spendwithpennies.com/baked-ziti/">Easy Baked Ziti!</a>
+    </div>
+
+    <!-- Amazon basics review-->
+    <div class="link">
+      <img src="shirt.jpg" class="banner-image thumbnail">
+
+      <a target="_blank"
+        href="https://dappered.com/2017/02/in-review-amazons-goodthreads-button-down-oxford-cloth-shirts/">Amazon Basics
+        Oxford Cloth Button Down Review</a>
+    </div>
+
+    <!-- IMDB review-->
+    <div class="link">
+      <img src="room.jpg" class="banner-image thumbnail">
+
+      <a target="_blank" href="https://www.imdb.com/title/tt0091867/">A Room With A View</a>
+    </div>
+  </div>
+
+  <!-- Etc, for as many links as you want -->
+</body>
+
+</html>
